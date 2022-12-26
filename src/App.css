@@ -1,0 +1,24 @@
+*{
+  margin:0;
+  padding: 0;
+}
+html,body{
+  background-color: #656566;
+}
+
+.App {
+  text-align: center;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  margin-top: 5%;
+  font-family: Lato,sans-serif;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
