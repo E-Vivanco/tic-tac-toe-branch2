@@ -1,0 +1,46 @@
+.container-tablero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.titulo-juego{
+    width: 250px;
+    height: 60px;
+    font-size: 1.2em;
+    margin-left: 20%;
+    font-family: Lato,sans-serif;
+    background-color:#00000045;
+}
+  .resultado {
+    font-size: 1.9em;
+    font-weight: bold;
+    text-align: center;
+  }
+.boton{
+    cursor:pointer;
+    width: 175px;
+    height: 45px;
+    margin-top: 5%;
+    border:none;
+    font-size: 1.9em;
+    border-radius: 15px;
+    background-color: #1b1b9945;
+}
+.boton:hover{
+    background-color: yellow;
+}
+.pieza {
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    font-size: 3em;
+    cursor:pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    color: rgb(74, 72, 72);
+    background-color: rgb(127, 172, 172);
+  }
+  
