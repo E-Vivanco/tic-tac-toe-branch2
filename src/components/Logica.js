@@ -1,4 +1,4 @@
-import { useState, useEffect  } from 'react';
+import { useState} from 'react';
 import Square from './Square';
 
 export default function Logica() {
